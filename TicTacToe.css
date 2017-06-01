@@ -1,0 +1,72 @@
+* {
+    
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Baloo', cursive;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 25px;
+}
+
+.playerBox {
+    padding: 0px 10px;
+    width: 100px;
+    height: 80px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    border: 5px solid black;
+    background-color: rgb(203,153,192);
+}
+
+.playerBox p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px auto;
+}
+
+.playerBox #current-player {
+    font-family: 'Baloo', cursive;
+    font-size: 20px;
+}
+
+#board {
+    height: 400px;
+    width:  400px;
+    margin: 0 auto;
+    padding: 0px;
+    cursor: pointer;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#board tr :hover {
+    background-color: rgb(238,236,236);
+}
+
+
+#box5 {
+    border: 3px solid green;
+}
+
+#box2, #box8 {
+    border-right: 3px solid green;
+    border-left: 3px solid green;
+}
+
+#box4, #box6 {
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+}
+
+.button {
+    padding-top: 30px;
+    text-align: center;
+}

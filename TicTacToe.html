@@ -2,18 +2,19 @@
 <html>
 
 <head>
-	<title>Tic, Tac, Toe</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="TicTacToe.css">
+  <title>Tic, Tac, Toe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="TicTacToe.css">
   <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Baloo|Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
 
 <header>
   <h1>Tic, Tac, Toe</h1>
-  <p>Play!</p>
+  <p id="winner">Play!</p>
 </header>
 
 <div class="playerBox">
@@ -23,19 +24,19 @@
 
 <table id="board">
   <tr id="row1">
-    <td id="box1" class="tableLeft">1</td>
-    <td id="box2" class="tableMiddle">2</td>
-    <td id="box3" class="tableRight">3</td>
+    <td id="box1" class="tableLeft"></td>
+    <td id="box2" class="tableMiddle"></td>
+    <td id="box3" class="tableRight"></td>
   </tr>
   <tr id="row2">
-    <td id="box4" class="tableLeft">4</td>
-    <td id="box5" class="tableMiddle">5</td>
-    <td id="box6" class="tableRight">6</td>
+    <td id="box4" class="tableLeft"></td>
+    <td id="box5" class="tableMiddle"></td>
+    <td id="box6" class="tableRight"></td>
   </tr>
   <tr id="row3">
-    <td id="box7" class="tableLeft">7</td>
-    <td id="box8" class="tableMiddle">8</td>
-    <td id="box9" class="tableRight">9</td>
+    <td id="box7" class="tableLeft"></td>
+    <td id="box8" class="tableMiddle"></td>
+    <td id="box9" class="tableRight"></td>
   </tr>
 </table>
 
@@ -47,7 +48,5 @@
 <footer>@ZF</footer>
 
 <script src="TicTacToe.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-
 </body>
 </html>
